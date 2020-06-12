@@ -1,0 +1,15 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --h3-color: #ffffff;
+  --bg-secondary-color: #f5f4fa;
+}
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
