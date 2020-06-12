@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  outline: 3px solid blueviolet;
+}
+
 /* body */
 .page {
   /* геометрия */

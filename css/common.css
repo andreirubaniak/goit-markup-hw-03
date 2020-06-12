@@ -14,6 +14,7 @@ a {
   color: var(--primary-text-color);
 }
 
-.is-hidden {
+/* Скрывает абсолютно, даже от читалок */
+/* .is-hidden {
   display: none;
-}
+} */
