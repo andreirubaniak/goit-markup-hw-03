@@ -65,6 +65,9 @@
 }
 
 .hero > .section-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--h3-color);
 
   font-weight: 900;
@@ -198,10 +201,10 @@
 
 .button.primary {
   display: inline-block;
-  width: 200px;
-  height: 50px;
-  /* padding: 10px 32px; */
+  padding: 10px 32px;
   border-radius: 4px;
+  min-width: 200px;
+  min-height: 50px;
 
   font-weight: 700;
   font-size: 16px;
@@ -211,18 +214,14 @@
   letter-spacing: 0.06em;
   color: var(--h3-color);
 
-  /* display: flex; 
+  /* display: flex;
   align-items: center; */
 }
 
-/* .button.primary .button-primary-text {
-  display: inline-block;
-  width: 136x;
-  vertical-align: middle;
-} */
-
 /* portfolio */
 .hero-portfolio .button.secondary {
+  padding: 6px 22px;
+
   background: var(--bg-secondary-color);
 }
 
@@ -230,6 +229,7 @@
 .button.secondary:focus {
   color: var(--h3-color);
   background-color: var(--accent-color);
+  border-radius: 4px;
 }
 
 .project p {
@@ -256,4 +256,13 @@
 
 .examples img:hover {
   background: rgba(33, 150, 243, 0.9);
+}
+
+/* container */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
