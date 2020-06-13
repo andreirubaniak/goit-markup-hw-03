@@ -14,7 +14,22 @@ a {
   color: var(--primary-text-color);
 }
 
+address {
+  font-style: inherit;
+}
+
 /* Скрывает абсолютно, даже от читалок */
 /* .is-hidden {
   display: none;
 } */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 3px solid blueviolet;
+}

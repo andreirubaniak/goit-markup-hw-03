@@ -1,12 +1,7 @@
-*,
-*::before,
-*::after {
-  outline: 3px solid blueviolet;
-}
-
 /* body */
 .page {
   /* геометрия */
+  margin: 0px;
 
   /* цвет и текст */
   background-color: #e5e5e5;
@@ -26,7 +21,7 @@
 /* logo */
 .logo {
   text-decoration: none;
-  color: #000000;
+  color: #503b3b;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -202,16 +197,29 @@
 }
 
 .button.primary {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  /* padding: 10px 32px; */
+  border-radius: 4px;
+
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9em;
+  line-height: 1.87em;
 
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--h3-color);
+
+  /* display: flex; 
+  align-items: center; */
 }
+
+/* .button.primary .button-primary-text {
+  display: inline-block;
+  width: 136x;
+  vertical-align: middle;
+} */
 
 /* portfolio */
 .hero-portfolio .button.secondary {
