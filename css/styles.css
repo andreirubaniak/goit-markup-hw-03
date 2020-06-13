@@ -62,11 +62,13 @@
 /* hero */
 .hero {
   background: rgba(47, 48, 58, 0.8);
+
+  text-align: center;
 }
 
 .hero > .section-title {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 
   color: var(--h3-color);
 
@@ -74,7 +76,6 @@
   font-size: 44px;
   line-height: 1.4em;
 
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -189,6 +190,8 @@
 /* button */
 
 .button {
+  display: inline-block;
+
   color: var(--primary-text-color);
   background-color: var(--accent-color);
 
@@ -200,7 +203,6 @@
 }
 
 .button.primary {
-  display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
