@@ -61,6 +61,8 @@
 
 /* hero */
 .hero {
+  margin-bottom: 51px;
+
   background: rgba(47, 48, 58, 0.8);
 
   text-align: center;
@@ -82,8 +84,12 @@
 
 /* section */
 /* !!! */
+.section {
+  margin-bottom: 94px;
+}
+
 .section-title {
-  margin-top: 94px;
+  margin-top: 0px;
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -94,7 +100,7 @@
 /* features section */
 
 .features.section h2 {
-  margin-top: 51px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -135,7 +141,12 @@
 
 /* work section */
 .work h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 27px 82px;
+
   color: var(--h3-color);
+  background: rgba(47, 48, 58, 0.8);
 
   font-weight: 700;
   font-size: 14px;
