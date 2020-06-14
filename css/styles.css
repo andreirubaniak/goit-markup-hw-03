@@ -69,7 +69,6 @@
 .container .main-nav {
   display: flex;
   align-items: center;
-  justify-content: ;
 }
 
 .site-nav .link:hover,
@@ -190,11 +189,15 @@
   text-transform: uppercase;
 }
 
+.feature-list {
+  display: flex;
+}
+
 /* work section */
 .work h3 {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 27px 82px;
+  padding: 27px 82px 27px 83px;
 
   color: var(--h3-color);
   background: rgba(47, 48, 58, 0.8);
@@ -204,6 +207,15 @@
   line-height: 1.14em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.work-examles {
+  display: flex;
+}
+
+/* текст не поместился  */
+.work-examles .item + .item {
+  margin-left: 30px;
 }
 
 /* command section */
@@ -224,11 +236,33 @@
   background-color: var(--accent-color);
 }
 
+.command-list {
+  display: flex;
+}
+
+.social.list {
+  display: flex;
+  justify-content: center;
+}
+
+.command-list .worker + .worker {
+  margin-left: 30px;
+}
+
 /* clients section */
 /* !!! */
 .clients a:hover,
 .clients a:focus {
   background-color: var(--accent-color);
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+
+.client-list .item + .item {
+  margin-left: 30px;
 }
 
 /* page-footer */
@@ -253,6 +287,8 @@
 }
 
 .footer-social {
+  display: flex;
+
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -262,6 +298,8 @@
   background-color: var(--accent-color);
 }
 .page-footer .auth-nav {
+  margin-left: 0px;
+
   font-size: 14px;
   line-height: 1.7em;
 }
@@ -325,10 +363,25 @@
   margin-bottom: 0px;
 }
 
+.examples.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .examples .cards {
-  display: inline-block;
-  width: 370px;
+  /* width: 370px; */
+  width: calc((100% - 60px) / 3);
   height: 404px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.examples .cards:nth-child(3n) {
+  margin-right: 0;
+}
+
+.examples .cards:nth-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .cards .foto {
