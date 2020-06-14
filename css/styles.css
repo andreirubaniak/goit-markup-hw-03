@@ -20,6 +20,10 @@
 
 /* logo */
 .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   text-decoration: none;
   color: #503b3b;
   font-family: Raleway;
@@ -34,6 +38,40 @@
 
 /* site-nav */
 
+.main-nav .logo-item {
+  display: flex;
+  margin-right: 85px;
+}
+
+.site-nav {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* .site-nav .item + .item {
+  margin-left: 50px;
+} */
+
+.site-nav .link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.container .main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: ;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -44,19 +82,32 @@
 }
 
 /* auth-nav */
-.auth-nav .link {
-  color: var(--text-color);
-}
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
+
+.auth-nav {
+  display: flex;
+  margin-left: 305px;
 }
 
-.site-nav {
+.auth-nav-mail + .auth-nav-tel {
+  margin-left: 30px;
+}
+
+.auth-nav .link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
 }
 
 /* hero */
@@ -325,6 +376,16 @@
 
 .examples img:hover {
   background: rgba(33, 150, 243, 0.9);
+}
+
+.buttonset-set {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttonset-set .item:not(:last-child) {
+  margin-right: 8px;
 }
 
 /* container html */

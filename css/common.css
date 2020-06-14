@@ -36,3 +36,7 @@ html {
   box-sizing: inherit;
   /* outline: 3px solid blueviolet; */
 }
+
+img {
+  display: block;
+}
