@@ -264,6 +264,27 @@
   background: var(--bg-secondary-color);
 }
 
+.hero-portfolio .container {
+  margin-top: 93px;
+  margin-bottom: 94px;
+}
+
+.hero-portfolio .is-hidden {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.examples .cards {
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+}
+
+.cards .foto {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 .button.secondary:hover,
 .button.secondary:focus {
   color: var(--h3-color);
@@ -276,6 +297,9 @@
 }
 
 .examples h2 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
@@ -284,11 +308,17 @@
 }
 
 .examples .text-title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+
   font-size: 16px;
   line-height: 1.9em;
 }
 
 .examples .text-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-size: 18px;
   line-height: 1.6em;
 }
@@ -297,7 +327,7 @@
   background: rgba(33, 150, 243, 0.9);
 }
 
-/* container */
+/* container html */
 
 .container {
   width: 1200px;
@@ -305,4 +335,34 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.command.padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.command .worker {
+  display: inline-block;
+  min-width: 270px;
+  min-height: 422px;
+
+  background: var(--h3-color);
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.worker .foto {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.worker h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.worker p {
+  margin-top: 0px;
+  margin-bottom: 16px;
 }

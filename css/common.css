@@ -34,5 +34,5 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: 3px solid blueviolet;
+  /* outline: 3px solid blueviolet; */
 }
