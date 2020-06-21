@@ -328,7 +328,7 @@
 
           <ul class="client-list list">
             <li class="item">
-              <a href="#"
+              <a class="client-link" href="#"
                 ><img src="./images/clients/logo1.svg" alt="Логотип клиента 1"
               /></a>
             </li>
@@ -363,7 +363,7 @@
     </main>
     <footer class="page-footer">
       <div class="container">
-        <div class="logo-item">
+        <div class="logo-item" class="footer-flex">
           <a href="./index.html" class="logo">
             <!-- <img lang="en" src="./images/logo.svg" alt="Web Studio" /> - Макс говорит что это текст, а не картинка, и ОН ПРАВ!-->
             <span class="logo-web">Web</span>
@@ -377,13 +377,13 @@
             <li>
               <a href="https://goo.gl/maps/Y7odyiGdengHAg7r9" class="auth-nav-map link">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-      
+            
             <li>
               <a href="mailto:info@devstudio.com" class="link">
                 <!-- Иконка электронной почты CSS -->
                 info@devstudio.com</a>
             </li>
-      
+            
             <li>
               <a href="tel:+380961111111" class="link">
                 <!-- Иконка смартфона CSS -->
@@ -393,21 +393,24 @@
         </address>
       
         <!-- Список соцсетей -->
-        <p class="text">ПРИСОЕДИНЯЙТЕСЬ</p>
-        <ul class="footer-social list">
-          <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
-          <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
-          <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
-          <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
-        </ul>
+        <div class="footer-flex">
+          <p class="text">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="footer-social list">
+            <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+            <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+            <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+            <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+          </ul>
+        </div>
       
-        <p class="text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-        <a href="#" class="button primary">Подписаться</a>
-        <!-- Условие дз:Форму подписки в футере размечать не нужно. -->
-      
-        <p class="text-down">
+        <div class="footer-flex">
+          <p class="text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+          <a href="#" class="button primary">Подписаться</a>
+        </div>
+              
+        <!-- <p class="text-down">
           2020 | Developed by GoIT Students
-        </p>
+        </p> -->
       </div>
     </footer>
   </body>
