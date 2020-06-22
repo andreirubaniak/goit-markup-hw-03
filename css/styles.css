@@ -237,9 +237,9 @@
   text-align: center;
 }
 
-.command .section-title {
+/* .command .section-title {
   margin-top: 94px;
-}
+} - виправлення*/
 
 .command p {
   color: var(--text-color);
@@ -263,8 +263,37 @@
   margin-left: 30px;
 }
 
+.command.padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.command .worker {
+  /* display: inline-block; виправлення */
+  min-width: 270px;
+  min-height: 422px;
+
+  background: var(--h3-color);
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.worker .foto {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.worker h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.worker p {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
 /* clients section */
-/* !!! */
 .clients {
   padding-top: 94px;
 }
@@ -281,6 +310,11 @@
 }
 
 .client-list .item {
+  /* виправлення */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 170px;
   height: 90px;
 
@@ -288,11 +322,6 @@
   box-sizing: border-box;
   border-radius: 4px;
 }
-
-/* .client-list .client-link {
-  display: flex;
-  justify-content: center;
-} */
 
 .client-list .item + .item {
   margin-left: 30px;
@@ -347,8 +376,8 @@
   color: var(--h3-color);
   background-color: var(--accent-color);
 }
-.page-footer .auth-nav {
-  margin-left: 0px;
+.page-footer .auth-nav.list {
+  /* margin-left: 0px; */
   flex-direction: column;
 
   font-size: 14px;
@@ -359,13 +388,10 @@
   padding: 0px;
 }
 
-.page-footer address .link {
+/* Алилуйя */
+.page-footer .auth-nav.list > li:not(:last-child) {
   margin-bottom: 9px;
 }
-
-/* .page-footer address .link:last-child {
-  margin-bottom: 0px;
-} */
 
 .text-down {
   color: rgba(255, 255, 255, 0.4);
@@ -416,9 +442,10 @@
   background: var(--bg-secondary-color);
 }
 
-.hero-portfolio .container {
-  margin-top: 93px;
-  margin-bottom: 94px;
+/* Виправлення */
+.hero-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hero-portfolio .is-hidden {
@@ -516,34 +543,4 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.command.padding {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.command .worker {
-  display: inline-block;
-  min-width: 270px;
-  min-height: 422px;
-
-  background: var(--h3-color);
-
-  border-radius: 0px 0px 4px 4px;
-}
-
-.worker .foto {
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
-.worker h3 {
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-
-.worker p {
-  margin-top: 0px;
-  margin-bottom: 16px;
 }
